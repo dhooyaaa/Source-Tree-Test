@@ -8,6 +8,7 @@ public class SourceTreeTest : MonoBehaviour
 
     public bool completeDone = false;
     public int sourcetree = 0;
+    public float kkk ;
     void Start()
     {
         
@@ -22,8 +23,9 @@ public class SourceTreeTest : MonoBehaviour
     void test()
     {
         int c = 1;
+        kkk = 1.2f;
         Debug.Log($"c : {c}");
-        Debug.Log($"sourcetree : {sourcetree}");
+        Debug.Log($"kkk : {kkk}");
 
     }
 }
