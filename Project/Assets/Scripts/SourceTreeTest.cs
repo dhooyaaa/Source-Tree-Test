@@ -9,7 +9,7 @@ public class SourceTreeTest : MonoBehaviour
     public bool completeDone = false;
     public int sourcetree = 0;
     public float kkk ;
-    public int ttt = 1;
+    public int sss = 1;
     void Start()
     {
         
@@ -24,7 +24,7 @@ public class SourceTreeTest : MonoBehaviour
     void test()
     {
         int new_d = 1;
-        Debug.Log($"ttt : {ttt}");
+        Debug.Log($"sss : {sss}");
         Debug.Log($"sourcetree : {sourcetree}");
 
     }
