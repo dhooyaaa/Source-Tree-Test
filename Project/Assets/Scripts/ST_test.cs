@@ -5,6 +5,7 @@ using UnityEngine;
 public class ST_test : MonoBehaviour
 {
     // Start is called before the first frame update
+    int a = 1;
     void Start()
     {
         
@@ -20,5 +21,6 @@ public class ST_test : MonoBehaviour
     {
         Debug.Log("ssss");
         Debug.Log("abcde");
+        Debug.Log($"a : {a}");
     }
 }
