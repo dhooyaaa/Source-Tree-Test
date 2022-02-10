@@ -21,8 +21,8 @@ public class SourceTreeTest : MonoBehaviour
 
     void test()
     {
-        int c = 1;
-        Debug.Log($"c : {c}");
+        int new_d = 1;
+        Debug.Log($"new_d : {new_d}");
         Debug.Log($"sourcetree : {sourcetree}");
 
     }
