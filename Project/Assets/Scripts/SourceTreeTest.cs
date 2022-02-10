@@ -7,7 +7,7 @@ public class SourceTreeTest : MonoBehaviour
     // Start is called before the first frame update
 
     public bool completeDone = false;
-
+    public int sourcetree = 0;
     void Start()
     {
         
@@ -23,5 +23,7 @@ public class SourceTreeTest : MonoBehaviour
     {
         int c = 1;
         Debug.Log($"c : {c}");
+        Debug.Log($"sourcetree : {sourcetree}");
+
     }
 }
