@@ -8,6 +8,7 @@ public class SourceTreeTest : MonoBehaviour
 
     public bool completeDone = false;
     public int sourcetree = 0;
+    public float kkk ;
     void Start()
     {
         
