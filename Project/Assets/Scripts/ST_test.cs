@@ -18,6 +18,6 @@ public class ST_test : MonoBehaviour
 
     void test()
     {
-        Debug.Log("ssss");
+        Debug.Log("ddddddd");
     }
 }
