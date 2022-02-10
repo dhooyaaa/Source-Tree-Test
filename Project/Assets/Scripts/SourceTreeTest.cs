@@ -6,7 +6,7 @@ public class SourceTreeTest : MonoBehaviour
 {
     // Start is called before the first frame update
 
-    public int price = 1;  
+    public bool completeDone = false;
 
     void Start()
     {
